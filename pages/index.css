@@ -1,0 +1,15 @@
+@import url("../blocks/main/main.css");
+@import url("../blocks/page/page.css");
+@import url("../blocks/region/region.css");
+@import url("../blocks/menu/menu.css");
+@import url("../blocks/modal/modal.css");
+@import url("../blocks/open-popup/open-popup.css");
+@import url("../blocks/red-arrow/red-arrow.css");
+@import url("../blocks/red-arrow/_big/red-arrow_big.css");
+@import url("../blocks/swiper/swipper.css");
+
+@import url("../vendor/normalize.css");
+@import url("../fonts/fonts.css");
+
+
+

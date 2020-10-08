@@ -1,0 +1,11 @@
+.main__statistics-info {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin: 0;
+    max-width: 232px;
+}

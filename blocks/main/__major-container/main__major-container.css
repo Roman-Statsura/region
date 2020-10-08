@@ -1,0 +1,14 @@
+.main__major-container {
+    padding-left: 110px;
+    padding-right: 110px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+@media (max-width : 425px) {
+    .main__major-container {
+        padding: 0;
+        width: 327px;
+        margin: 0 auto;
+    }
+}

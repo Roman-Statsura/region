@@ -1,0 +1,12 @@
+.main__statistics {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+}
+@media (max-width : 425px) {
+    .main__statistics {
+        display: none;
+    }
+}

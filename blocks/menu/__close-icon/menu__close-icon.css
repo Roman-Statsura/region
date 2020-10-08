@@ -1,0 +1,13 @@
+.menu__close-icon {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 32px;
+    right: 32px;
+}
+
+.menu__close-icon:hover {
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 1s ease;
+}

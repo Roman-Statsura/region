@@ -1,0 +1,16 @@
+.main__paragraph {
+    font-family:'Roboto', sans-serif;
+    width: 421px;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    margin: 18px 0 0 0;
+    line-height: 32px;
+}
+
+@media (max-width : 425px) {
+    .main__paragraph {
+        max-width: 272px;
+        margin-top: 24px;
+    }
+}

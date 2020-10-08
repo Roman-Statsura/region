@@ -1,0 +1,11 @@
+.menu__nav {
+    display: flex;
+    flex-direction: column;
+    max-width: 336px;
+    border-top: 1px solid #8A93B4;
+    border-bottom: 1px solid #8A93B4;
+    padding-top: 21px;
+    padding-bottom: 83px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}

@@ -1,0 +1,10 @@
+.main__buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+}
+@media (max-width : 425px) {
+    .main__buttons-container {
+        display: none;
+    }
+}

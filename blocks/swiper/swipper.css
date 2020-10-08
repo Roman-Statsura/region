@@ -1,0 +1,22 @@
+.swiper-container {
+    width: 570px;
+    height: 300px;
+    margin-top: 119px;
+}
+
+.swiper-pagination-bullet {
+    width: 17px;
+    height: 3px;
+    border-radius: 0;
+    margin-right: 5px;
+}
+
+.swiper-pagination{
+    position: relative;
+}
+@media (max-width : 425px) {
+    .swiper-container {
+        max-width: 328px;
+        height: 200px;
+    }
+}

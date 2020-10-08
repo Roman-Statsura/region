@@ -1,0 +1,32 @@
+.region__button {
+    background-color: transparent;
+    border: 1px solid white;
+    width: 243px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 78px 0 0 0;
+    height: 56px;
+}
+
+.region__button:hover {
+    border: 1px solid red;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 1s ease;
+}
+
+.region__button:hover .red-arrow {
+    display: flex;
+}
+
+.region__button:hover .region__button-arrow {
+    display: none;
+}
+@media (max-width : 425px) {
+    .region__button{
+    display: none;
+    }
+}

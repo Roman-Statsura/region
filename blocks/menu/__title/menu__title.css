@@ -1,0 +1,10 @@
+.menu__title {
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #8A93B4;
+    width: 126px;
+    margin: 0;
+    line-height: 43px;
+    padding-top: 24px;
+}

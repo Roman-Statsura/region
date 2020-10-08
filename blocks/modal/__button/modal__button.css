@@ -1,0 +1,23 @@
+.modal__button {
+    background-color: blue;
+    color: white;
+    border: none;
+    width: 240px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    height: 48px;
+    font-family:'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+.modal__button:hover {
+    border: 1px solid white;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 1s ease;
+}

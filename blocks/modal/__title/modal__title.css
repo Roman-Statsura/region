@@ -1,0 +1,13 @@
+.modal__title {
+    max-width: 490px;
+    text-align: left;
+    height: 61px;
+    font-family: 'Cuprum', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 64px;
+    color: #0F1D4E;
+    margin-top: 0;
+    padding-top: 146px;
+}

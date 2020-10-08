@@ -1,0 +1,14 @@
+.region__inf-paragraph {
+    font-size: 14px;
+    font-weight: 400;
+    font-family:'Roboto', sans-serif;
+    color: white;
+    height: 32px;
+}
+@media (max-width : 425px) {
+    .region__inf-paragraph {
+       font-size: 16px;
+       line-height: 24px;
+       max-width: 328px;
+    }
+}

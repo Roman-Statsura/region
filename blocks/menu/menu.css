@@ -1,0 +1,21 @@
+@import url('./__content/menu__content.css');
+@import url('./__nav/menu__nav.css');
+@import url('./__close-icon/menu__close-icon.css');
+@import url('./__page-link/menu__page-link.css');
+@import url('./__title/menu__title.css');
+@import url('./__contacts/menu__contacts.css');
+@import url('./__contact/menu__contact.css');
+@import url('./__value/menu__value.css');
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    /*display: flex;*/
+    align-items: center;
+    display: none;
+    opacity: 0;
+}

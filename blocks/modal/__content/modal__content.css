@@ -1,0 +1,31 @@
+@keyframes rotation {
+    from {
+        left: -800px;
+        animation-timing-function: linear;
+      }
+      25% {
+        left: -600px;
+        animation-timing-function: linear;
+      }
+      50% {
+        left: -400px;
+        animation-timing-function: linear;
+      }
+      75% {
+        left: -200px;
+        animation-timing-function: linear;
+      }
+      to {
+        left: 0px;
+      }
+    
+}
+
+.modal__content {
+    width: 728px;
+    background-color: white;
+    position: relative;
+    padding: 0 0 0 72px;
+    height: 100vh;
+    animation: rotation 3s forwards linear normal;
+}

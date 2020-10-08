@@ -1,0 +1,30 @@
+@import url('./__major-container/main__major-container.css');
+@import url('./__container/main__container.css');
+@import url('./__header/main__header.css');
+@import url('./__item/main__item.css');
+@import url('./__logo/main__logo.css');
+@import url('./__menu/main__menu.css');
+@import url('./__button/main__button.css');
+@import url('./__button-text/main__button-text.css');
+@import url('./__title/main__title.css');
+@import url('./__paragraph/main__paragraph.css');
+@import url('./__buttons-container/main__button-container.css');
+@import url('./__button-arrow/main__button-arrow.css');
+@import url('./__button-title/main__button-title.css');
+@import url('./__button/_white/main__button-white.css');
+@import url('./__statistics/main__statistics.css');
+@import url('./__statistics-title/main__statistics-title.css');
+@import url('./__statistics-subtitle/main__statistics-subtitle.css');
+@import url('./__statistics-info/main__statistics-info.css');
+@import url('./__checkbox/main__checkbox.css');
+@import url('./__vector/main__vector.css');
+@import url('./__central-container/main__central-container.css');
+
+
+.main {
+    background-image: url('../../images/image\ 4.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+}

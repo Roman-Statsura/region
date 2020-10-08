@@ -1,0 +1,10 @@
+.region__button_deactive {
+    display: none;
+}
+@media (max-width : 425px) {
+    .region__button_deactive{
+    display: flex ;
+    width: 328px;
+    margin-bottom: 56px;
+    }
+}

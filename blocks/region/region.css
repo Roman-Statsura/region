@@ -1,0 +1,21 @@
+@import url('./__major-container/region__major-container.css');
+@import url('./__text-container/region__text-container.css');
+@import url('./__title/region__title.css');
+@import url('./__paragraph/region__paragraph.css');
+@import url('./__button/region__button.css');
+@import url('./__button-text/region__button-text.css');
+@import url('./__information/region__information.css');
+@import url('./__inf-container/region__inf-container.css');
+@import url('./__inf-paragraph/region__inf-paragraph.css');
+@import url('./__inf-title/region__inf-title.css');
+@import url('./__main-iformation/region__main-information.css');
+@import url('./__swiper-button/region__swiper-button.css');
+@import url('./__interfaces/region__interfaces.css');
+@import url('./__button/_deactive/region__button_deactive.css');
+
+.region {
+    background-image: url('../../images/region-img.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}

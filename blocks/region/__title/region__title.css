@@ -1,0 +1,16 @@
+.region__title{
+    font-family: 'Cuprum', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: white;
+    width: 366px;
+    margin: 0 0 44px 0;
+    line-height: 64px;
+}
+@media (max-width : 425px) {
+    .region__title{
+      font-size: 36px;
+      line-height: 36px;
+      margin-bottom: 24px;
+    }
+}

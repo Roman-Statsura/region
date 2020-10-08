@@ -1,0 +1,29 @@
+.main__checkbox {
+    width: 8px;
+    height: 8px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.main__checkbox:first-child {
+    top: 465px;
+    right: 745px;
+}
+
+.main__checkbox:nth-child(2){
+    top: 465px;
+    right: 520px
+}
+.main__checkbox:nth-child(3){
+    top: 283px;
+    right: 305px
+}
+.main__checkbox:nth-child(4){
+    top: 248px;
+    right: 160px
+}
+@media (max-width : 425px) {
+    .main__checkbox {
+        display: none;
+    }
+}

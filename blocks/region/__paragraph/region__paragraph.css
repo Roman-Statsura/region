@@ -1,0 +1,9 @@
+.region__paragraph {
+    font-family:'Roboto', sans-serif;
+    max-width: 442px;
+    font-weight: 400;
+    font-size: 14px;
+    color: white;
+    margin: 39px 0 0 0;
+    line-height: 24px;
+}

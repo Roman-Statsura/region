@@ -1,0 +1,36 @@
+.main__button {
+    background-color: transparent;
+    border: 1px solid white;
+    width: 328px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: 107px 0 0 0;
+    min-height: 64px;
+    z-index: 1;
+}
+
+.main__button:hover {
+    border: 1px solid red;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: 1s ease;
+}
+
+.main__button:hover .red-arrow {
+    display: flex;
+}
+
+.main__button:hover .main__button-arrow {
+    display: none;
+}
+
+@media (max-width : 425px) {
+    .main__button {
+        width: 328px;
+        height: 60px;
+        margin-top: 40px;
+    }
+}

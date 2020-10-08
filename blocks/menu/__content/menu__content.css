@@ -1,0 +1,32 @@
+@keyframes rotation-menu {
+    from {
+        left: -320px;
+        animation-timing-function: linear;
+      }
+      25% {
+        left: -240px;
+        animation-timing-function: linear;
+      }
+      50% {
+        left: -160px;
+        animation-timing-function: linear;
+      }
+      75% {
+        left: -80px;
+        animation-timing-function: linear;
+      }
+      to {
+        left: 0px;
+      }
+    
+}
+
+.menu__content {
+    min-width: 320px;
+    background-color:rgb(0, 0, 128);
+    padding: 0 32px 0 32px;
+    margin: 0;
+    position: relative;
+    height: 100vh;
+    animation: rotation-menu 2s forwards linear normal;
+}
