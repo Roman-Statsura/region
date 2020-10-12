@@ -12,6 +12,7 @@
 @import url('./__swiper-button/region__swiper-button.css');
 @import url('./__interfaces/region__interfaces.css');
 @import url('./__button/_deactive/region__button_deactive.css');
+@import url('./__slider/region__slider.css');
 
 .region {
     background-image: url('../../images/region-img.svg');

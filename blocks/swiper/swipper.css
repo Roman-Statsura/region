@@ -1,7 +1,10 @@
-.swiper-container {
+.region-swiper {
     width: 570px;
     height: 300px;
     margin-top: 119px;
+}
+.main-swiper {
+    width: 270px;
 }
 
 .swiper-pagination-bullet {

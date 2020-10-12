@@ -29,3 +29,9 @@
     height: 100vh;
     animation: rotation 3s forwards linear normal;
 }
+@media (max-width : 425px) {
+  .modal__content{
+      padding: 0 10px 0 10px;
+      width: 100%;
+  }
+}

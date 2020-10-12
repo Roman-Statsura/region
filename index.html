@@ -22,7 +22,11 @@
                         <a href="#" class="main__item">НОВОСТИ</a>
                         <a href="#" class="main__item">КОНТАКТЫ</a>
                     </nav>
-                    <img src="./images/menu-white.png" class="main__menu" alt="меню">
+                    <div class="main__menu">
+                        <img class="main__menu-line" src="./images/menu-line.svg" alt="">
+                        <img class="main__menu-line" src="./images/menu-line.svg" alt="">
+                        <img class="main__menu-line" src="./images/menu-line.svg" alt="">
+                    </div>
                 </header>
                 <div class="main__central-container">
                     <img class="main__vector" src="./images/Vector.svg" alt="вектор">
@@ -33,18 +37,33 @@
                         <img class="main__button-arrow" src="./images/Arrow.svg" alt="стрелка">
                         <img class="red-arrow red-arrow_big" src="./images/Arrow-red.svg" alt="стрелка">
                     </button>
-                    <div class="main__chekboxes">
-                        <img id="check-one" class="main__checkbox ckeck-active" src="./images/checkbox-active.svg" alt="чекбокс">
-                        <img id="check-two" class="main__checkbox" src="./images/checkbox.svg" alt="чекбокс">
-                        <img id="check-three" class="main__checkbox" src="./images/checkbox.svg" alt="чекбокс">
-                        <img id="check-four" class="main__checkbox " src="./images/checkbox.svg" alt="чекбокс">
+                    </div>-->
+                    <div class="swiper-container main-swiper main__statistics">
+                        <div class="swiper-wrapper ">
+                            <div class="swiper-slide">
+                                <p class="main__statistics-info">Площадь для комфортного делового климата1</p>
+                                <h2 class="main__statistics-title">101 000</h2>
+                                <h3 class="main__statistics-subtitle">Квадратных киллометров1</h3>
+                            </div>
+                            <div class="swiper-slide">
+                                <p class="main__statistics-info">Площадь для комфортного делового климата2</p>
+                                <h2 class="main__statistics-title">102 000</h2>
+                                <h3 class="main__statistics-subtitle">Квадратных киллометров2</h3>
+                            </div>
+                            <div class="swiper-slide">
+                                <p class="main__statistics-info">Площадь для комфортного делового климата3</p>
+                                <h2 class="main__statistics-title">103 000</h2>
+                                <h3 class="main__statistics-subtitle">Квадратных киллометров3</h3>
+                            </div>
+                            <div class="swiper-slide">
+                                <p class="main__statistics-info">Площадь для комфортного делового климата4</p>
+                                <h2 class="main__statistics-title">104 000</h2>
+                                <h3 class="main__statistics-subtitle">Квадратных киллометров4</h3>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination main__swiper-pagination"></div>
                     </div>
-                    
-                    <div class="main__statistics">
-                        <p class="main__statistics-info">Площадь для комфортного делового климата</p>
-                        <h2 class="main__statistics-title">101 000</h2>
-                        <h3 class="main__statistics-subtitle">Квадратных киллометров</h3>
-                    </div>
+
                     <div class="main__buttons-container">
                         <button class="main__button main__button-white">
                             <img src="./images/button-img.svg" alt="картинка">
@@ -83,7 +102,7 @@
                         </button>
                     </div>
                     <div class="region__slider">
-                        <div class="swiper-container">
+                        <div class="swiper-container region-swiper">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide"><img src="./images/atharva-tulsi.jpg" alt=""></div>
                                 <div class="swiper-slide"><img src="./images/baikal.jpg" alt=""></div>
@@ -91,7 +110,7 @@
                             </div>
                         </div>
                         <div class="region__interfaces">
-                            <div class="swiper-pagination"></div>
+                            <div class="swiper-pagination region__swiper-pagination"></div>
                             <div class="region__button-contanier">
                                 <button class="region__swiper-button swiper-button-left"><img src="./images/Arrow-left.svg" alt=""></button>
                                 <button class="region__swiper-button swiper-button-rigth"><img src="./images/Arrow-rigth.svg" alt=""></button>

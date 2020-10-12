@@ -2,6 +2,9 @@
     width: 24px;
     height: 16px;
     margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .main__menu:hover {
     cursor: pointer;
