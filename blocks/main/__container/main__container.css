@@ -5,7 +5,12 @@
     margin-bottom: 0px;
     padding-left: 0;
 }
-@media (max-width : 425px) {
+@media (min-width : 1024px) and (max-width : 1365px) {
+    .main__container {
+        margin-left: 40px;
+    }
+}
+@media (max-width : 1023px) {
     .main__container {
         display: none;
     }

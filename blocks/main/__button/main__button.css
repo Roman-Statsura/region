@@ -25,11 +25,29 @@
 .main__button:hover .main__button-arrow {
     display: none;
 }
+@media (min-width : 1024px) and (max-width : 1365px) {
+    .main__button {
+        margin-top: 40px;
+    }
+}
+@media (min-width : 768px) and (max-width : 1023px) {
+    .main__button {
+        width: 328px;
+        height: 60px;
+        margin: 100px auto 0 auto;
+    }
+}
 
-@media (max-width : 425px) {
+@media (max-width : 767px) {
     .main__button {
         width: 328px;
         height: 60px;
         margin-top: 40px;
+    }
+}
+@media (min-width : 320px) and (max-width : 374px) {
+    .main__button {
+        max-width: 270px;
+        margin: 50px auto 0 auto;
     }
 }

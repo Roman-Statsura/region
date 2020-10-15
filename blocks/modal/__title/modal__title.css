@@ -11,3 +11,12 @@
     margin-top: 0;
     padding-top: 146px;
 }
+@media (min-width : 320px) and (max-width : 374px) {
+    .modal__title {
+        padding-top: 10px;
+        font-size: 46px;
+        line-height: 46px;
+        margin-bottom: 0;
+        height: 56px;
+    }
+}

@@ -4,7 +4,30 @@
     position: relative;
     left: 500px;
 }
-@media (max-width : 425px) {
+@media (min-width : 1920px) and (max-width : 2000px) {
+    .main__statistics {
+        left: 588px;
+        top: 100px;
+    }
+}
+@media (min-width : 1680px) and (max-width : 1919px) {
+    .main__statistics {
+        left: 557px;
+    }
+}
+@media (min-width : 1366px) and (max-width : 1439px) {
+    .main__statistics {
+        left: 480px;
+        bottom: 90px;
+    }
+}
+@media (min-width : 1024px) and (max-width : 1365px) {
+    .main__statistics {
+        left: 290px;
+        bottom: 90px;
+    }
+}
+@media (max-width : 1023px) {
     .main__statistics {
         display: none;
     }

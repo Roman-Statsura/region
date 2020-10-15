@@ -6,3 +6,120 @@
 .main__swiper-pagination .swiper-pagination-bullet-active {
     background-color: red;
 }
+
+.main__swiper-pagination .swiper-pagination-bullet:nth-child(1) {
+    position: absolute;
+    top: 647px;
+    left: 521px;
+}
+.main__swiper-pagination .swiper-pagination-bullet:nth-child(2) {
+    position: absolute;
+    top: 647px;
+    left: 795px;
+}
+.main__swiper-pagination .swiper-pagination-bullet:nth-child(3) {
+    position: absolute;
+    top: 430px;
+    right: 365px;
+}
+.main__swiper-pagination .swiper-pagination-bullet:nth-child(4) {
+    position: absolute;
+    top: 385px;
+    right: 193px;
+}
+@media (min-width : 1920px) and (max-width : 2000px) {
+    .main__swiper-pagination .swiper-pagination-bullet:nth-child(1) {
+        position: absolute;
+        top: 756px;
+        left: 826px;
+    }
+    .main__swiper-pagination .swiper-pagination-bullet:nth-child(2) {
+        position: absolute;
+        top: 756px;
+        left: 1153px;
+    }
+    .main__swiper-pagination .swiper-pagination-bullet:nth-child(3) {
+        position: absolute;
+        top: 498px;
+        right: 440px;
+    }
+    .main__swiper-pagination .swiper-pagination-bullet:nth-child(4) {
+        position: absolute;
+        top: 446px;
+        right: 230px;
+    }
+}
+
+@media (min-width : 1660px) and (max-width : 1919px) {
+    .main__swiper-pagination .swiper-pagination-bullet:nth-child(1) {
+        position: absolute;
+        top: 756px;
+        left: 587px;
+    }
+    .main__swiper-pagination .swiper-pagination-bullet:nth-child(2) {
+        position: absolute;
+        top: 756px;
+        left: 912px;
+    }
+    .main__swiper-pagination .swiper-pagination-bullet:nth-child(3) {
+        position: absolute;
+        top: 498px;
+        right: 440px;
+    }
+    .main__swiper-pagination .swiper-pagination-bullet:nth-child(4) {
+        position: absolute;
+        top: 446px;
+        right: 230px;
+    }
+}
+
+@media (min-width : 1366px) and (max-width : 1439px) {
+    .main__swiper-pagination .swiper-pagination-bullet:nth-child(1) {
+        position: absolute;
+        top: 545px;
+        left: 612px;
+    }
+    .main__swiper-pagination .swiper-pagination-bullet:nth-child(2) {
+        position: absolute;
+        top: 545px;
+        left: 837px;
+    }
+    .main__swiper-pagination .swiper-pagination-bullet:nth-child(3) {
+        position: absolute;
+        top: 366px;
+        right: 298px;
+    }
+    .main__swiper-pagination .swiper-pagination-bullet:nth-child(4) {
+        position: absolute;
+        top: 329px;
+        right: 156px;
+    }
+}
+
+@media (min-width : 1024px) and (max-width : 1365px) {
+    .main__swiper-pagination .swiper-pagination-bullet:nth-child(1) {
+        position: absolute;
+        top: 545px;
+        left: 270px;
+    }
+    .main__swiper-pagination .swiper-pagination-bullet:nth-child(2) {
+        position: absolute;
+        top: 545px;
+        left: 495px;
+    }
+    .main__swiper-pagination .swiper-pagination-bullet:nth-child(3) {
+        position: absolute;
+        top: 366px;
+        right: 298px;
+    }
+    .main__swiper-pagination .swiper-pagination-bullet:nth-child(4) {
+        position: absolute;
+        top: 329px;
+        right: 156px;
+    }
+}
+@media (max-width : 1023px) {
+    .main__swiper-pagination {
+        display: none;
+    }
+}

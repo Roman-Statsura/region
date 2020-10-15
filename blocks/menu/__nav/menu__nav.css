@@ -9,3 +9,8 @@
     margin-top: 24px;
     margin-bottom: 32px;
 }
+@media (min-width : 320px) and (max-width : 374px) {
+     .menu__nav {
+        padding-bottom: 30px;
+    }
+}

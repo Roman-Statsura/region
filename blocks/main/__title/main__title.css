@@ -3,14 +3,28 @@
     font-weight: 700;
     font-size: 72px;
     color: white;
-    width: 1082px;
+    /*width: 1082px;*/
     margin: 0;
     line-height: 144px;
 }
-@media (max-width : 425px) {
+@media (min-width : 768px) and (max-width : 1023px) {
+    .main__title{
+        font-size: 72px;
+        line-height: 72px;
+        text-align: center;
+    }
+}
+
+@media (max-width : 767px) {
     .main__title{
         font-size: 56px;
         line-height: 60px;
         max-width: 331px;
+    }
+}
+@media (min-width : 320px) and (max-width : 374px) {
+    .main__title {
+        font-size: 46px;
+        line-height: 46px;
     }
 }

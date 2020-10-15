@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
 }
-@media (max-width : 425px) {
+@media (max-width : 1023px) {
     .region__main-iformation {
         display: flex;
         flex-direction: column;

@@ -30,3 +30,9 @@
     height: 100vh;
     animation: rotation-menu 2s forwards linear normal;
 }
+@media (min-width : 320px) and (max-width : 374px) {
+  .menu__content {
+      padding: 0 0 0 5px;
+      max-width: 280px;
+  }
+}

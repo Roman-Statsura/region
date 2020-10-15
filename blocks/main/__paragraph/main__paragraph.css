@@ -7,10 +7,27 @@
     margin: 18px 0 0 0;
     line-height: 32px;
 }
+@media (min-width : 768px) and (max-width : 1023px) {
+    .main__paragraph {
+        font-size: 30px;
+        line-height: 32px;
+        text-align: center;
+        margin: 40px auto 0 auto;
+    }
+}
 
-@media (max-width : 425px) {
+@media (max-width : 767px) {
     .main__paragraph {
         max-width: 272px;
         margin-top: 24px;
+    }
+}
+@media (min-width : 320px) and (max-width : 374px) {
+    .main__paragraph {
+        margin-top: 20px;
+        max-width: 272px;
+        font-size: 18px;
+        line-height: 18px;
+        margin-top: 30px;
     }
 }

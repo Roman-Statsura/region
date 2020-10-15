@@ -17,9 +17,33 @@
 .swiper-pagination{
     position: relative;
 }
-@media (max-width : 425px) {
-    .swiper-container {
+@media (min-width : 1024px) and (max-width : 1365px) {
+    .region-swiper {
         max-width: 328px;
         height: 200px;
+    }
+}
+@media (min-width : 768px) and (max-width : 1023px) {
+    .swiper-container  {
+        max-width: 600px;
+        height: 300px;
+    }
+    .region-swiper {
+        width: 600px;
+        height: 300px;
+        margin-top: 30px;
+    }
+}
+@media (max-width : 767px) {
+    .swiper-container {
+        max-width: 300px;
+        height: 200px;
+    }
+}
+@media (min-width : 320px) and (max-width : 374px) {
+    .swiper-container{
+        padding: 0;
+        max-width: 300px;
+        margin-top: 40px;
     }
 }

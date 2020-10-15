@@ -2,8 +2,19 @@
     /*position: relative;*/
     padding-top: 86px;
 }
+@media (min-width : 768px) and (max-width : 1023px) {
+    .main__central-container {
+        padding-top: 200px;
+    }
+}
+
 @media (max-width : 425px) {
     .main__central-container {
         padding-top: 232px;
+    }
+}
+@media (min-width : 320px) and (max-width : 374px) {
+    .main__central-container {
+        padding-top: 86px;
     }
 }

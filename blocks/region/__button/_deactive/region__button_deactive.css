@@ -1,10 +1,24 @@
 .region__button_deactive {
     display: none;
 }
-@media (max-width : 425px) {
+@media (min-width : 768px) and (max-width : 1023px) {
+    .region__button_deactive {
+        display: flex ;
+        width: 328px;
+        margin: 0 auto 10 auto;
+    }
+}
+@media (max-width : 767px) {
     .region__button_deactive{
-    display: flex ;
-    width: 328px;
-    margin-bottom: 56px;
+        display: flex ;
+        width: 328px;
+        margin-bottom: 56px;
+    }
+}
+@media (min-width : 320px) and (max-width : 374px) {
+    .region__button_deactive {
+        display: flex ;
+        width: 250px;
+        margin: 20px auto 20px auto;
     }
 }

@@ -3,7 +3,7 @@
     font-weight: 700;
     font-size: 64px;
     color: white;
-    width: 366px;
+    max-width: 366px;
     margin: 0 0 44px 0;
     line-height: 64px;
 }

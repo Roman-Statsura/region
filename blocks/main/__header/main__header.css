@@ -5,7 +5,7 @@
     border-bottom: 1px solid white;
 }
 @media (max-width : 425px) {
-    .main__header {
+    /*.main__header {
         width: 327px;
-    }
+    }*/
 }

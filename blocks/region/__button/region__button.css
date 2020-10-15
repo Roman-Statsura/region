@@ -25,8 +25,9 @@
 .region__button:hover .region__button-arrow {
     display: none;
 }
-@media (max-width : 425px) {
+@media (max-width : 1023px) {
     .region__button{
     display: none;
+    margin: 20px auto 0 auto;
     }
 }

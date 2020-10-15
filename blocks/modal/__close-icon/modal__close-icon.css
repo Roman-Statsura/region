@@ -11,3 +11,9 @@
     opacity: 0.7;
     transition: 1s ease;
 }
+@media (min-width : 320px) and (max-width : 374px) {
+    .modal__close-icon {
+        top: 15px;
+        bottom: 15px;
+    }
+}
